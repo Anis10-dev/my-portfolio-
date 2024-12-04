@@ -33,7 +33,7 @@ export function NavBar() {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed w-full top-0 z-50 bg-black border-b"
+      className="fixed w-full top-0 z-50 bg-background/95 backdrop-blur-sm border-b md:bg-background/80"
     >
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <motion.div
