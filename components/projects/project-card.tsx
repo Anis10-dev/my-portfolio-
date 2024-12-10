@@ -40,7 +40,7 @@ export function ProjectCard({
             src={image}
             alt={title}
             fill
-            className="object-cover"
+            className="object-contain"
           />
         </div>
         <CardContent className="p-6">
